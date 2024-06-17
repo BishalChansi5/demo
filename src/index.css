@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  border: 1px solid black;
+  height: 70vh;
+  width: 100vw;
+}
+.header{
+  margin-top: 20px;
+  text-align: center;
+}
+.flex{
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100%;
+}
+.left{
+  width: 20%;
+}
+.right{
+  /* border:1px solid black; */
+  display: flex;
+  width:80%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-around;
+} */
